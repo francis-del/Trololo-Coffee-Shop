@@ -37,7 +37,7 @@ cite {
     color: var(--action-background);
 }
 
-#features {
+.features {
     width: 100vw;
     height: auto;
     display: flex;
@@ -47,7 +47,7 @@ cite {
     padding: 50px;
     margin-bottom: 50px;
 }
-#features h2 {
+.features h2 {
     font-size: var(--primary-text-size);
     color: var(--primary-text-color);
     font-weight: 900;
@@ -73,7 +73,7 @@ cite {
     margin-bottom: 10px;
 }
 
-#quote {
+.quote {
     width: 100vw;
     height: auto;
     display: flex;
@@ -84,13 +84,13 @@ cite {
     padding: 100px;
 }
 
-#action {
+.action {
     width: 100vw;
     height: auto;
     padding: 75px 20%;
 }
 
-#action-container {
+.action-container {
     width: 100%;
     height: 100%;
     background-color: var(--action-background);
@@ -101,7 +101,7 @@ cite {
     padding: 50px 150px;
     justify-content: space-between;
 }
-#action-container p {
+.action-container p {
     font-size: 14px;
     font-weight: light;
     margin-top: 3px;
