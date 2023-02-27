@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.contacts{
+    background-color: #e5e7ebbb;
+    color: #1f2937;
+    padding: 4%;
+    border-radius: 3%;
+}
+
+img{
+    height: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.email{
+    margin-top: 10%;
+}
+
+@media (max-width:880px){
+div{
+    font-size: 0.8rem;
+}    
+}
+
+@media (max-width:676px){
+    div{
+        font-size: 0.6rem;
+}    
+}
