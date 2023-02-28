@@ -6,6 +6,104 @@
     overflow-x: hidden;
 }
 
+.nav-list {
+    
+    background: var(--dark-background);
+    padding: 1rem 0;
+    border-radius: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    color: var(--secondary-text-color);
+    font-size: var(--secondary-text-size);  
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    transition: all 200ms ease-in;
+    font-size: var(--logo-text-size);
+  }
+  
+  .nav-item a:hover {
+    color: #039d69;
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+    color: #F9FAF8;
+    font-size: 24px;
+    
+  }
+  .hero {
+    
+    background: var(--dark-background);
+    padding: 1rem 0;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+  }
+  
+  .hero-text {
+      margin-left: 2rem; 
+      height: 200px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-content: center;
+      
+  }
+  .hero-main{
+      font-size: var(--main-text-size);
+      font-weight: bolder;
+      color: var(--main-text-color);
+  }
+  
+  .hero-second {
+      font-size: var(--secondary-text-size);
+      color: var(--secondary-text-color);
+  
+  }
+  
+  .hero-image {
+      margin-right: 2rem;
+  }
+      
+  .placeholder {
+      position: absolute;
+      top: 10%;
+      padding:200px;
+      color: white;
+      font-size: var(--secondary-text-size);
+      color: var(--secondary-text-color);
+  }    
+  .button {
+      border: 2px solid var(--action-background);
+      padding: 3px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      transition: all ease .5s;
+      background-color: var(--action-background);
+  }
+  
+  .button:hover {
+      background-color: white;
+      color: var(--action-background);
+  }
+  
 blockquote {
     font-size: var(--primary-text-size);
     color: var(--primary-text-color);
