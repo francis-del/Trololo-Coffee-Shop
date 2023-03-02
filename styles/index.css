@@ -4,8 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     }
-    overflow-x: hidden;
-}
+/*header session starts*/    
 
 .nav-list {
     
@@ -104,22 +103,8 @@
       background-color: white;
       color: var(--action-background);
   }
-  
-blockquote {
-    font-size: var(--primary-text-size);
-    color: var(--primary-text-color);
-    font-weight: 300;
-    font-style: italic;
-    max-width: 1000px;
-}
+  /*header session ends */
 
-cite {
-    width: 100%;
-    max-width: 1000px;
-    text-align: right;
-    margin-top: 10px;
-    font-style: normal;
-}
 
 .btn {
     border: 2px solid white;
