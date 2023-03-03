@@ -1,0 +1,80 @@
+/* Header */
+
+header {
+    background: #A3B18A;
+    padding: 10px;
+}
+
+.title-header .title {
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+}
+
+.title-header .logo {
+    display: inline-block;
+}
+
+.title-header .logo img {
+    vertical-align: middle;
+}
+
+nav {
+    color: black;
+    font-size: 18px;
+    background: #606C3B;
+}
+
+nav li a {
+    color: black;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+
+/* End Header */
+
+
+/* Footer */
+
+footer {
+    position: relative;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    height: 100px;
+}
+
+footer a {
+    color: cornsilk;
+}
+
+
+/* End Footer */
+
+
+/* Home Page Content */
+
+.menu-item.additional-items h2 {
+    width: 50%;
+    float: left;
+}
+
+.menu-item.additional-items .item-inner ul {
+    display: inline-block;
+    width: 50%;
+}
+
+
+/* End Home Page Content */
+
+
+/* Page Content */
+
+.event-item {
+    margin-bottom: 25px;
+    border: 1px solid #000
+}
+
+
+/* End Page Content */

@@ -1,109 +1,206 @@
+/* General Settings */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    }
-/*header session starts*/    
+}
+
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+body {
+    background-size: cover;
+    background-image: url("../img/devin.jpg");
+    font-size: 16px;
+    font-family: "Arial", Helvetica, sans-serif;
+    margin: 0;
+    color: #1f2937;
+}
+
+main {
+    display: block;
+    padding: 30px 0;
+}
+
+* {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.95;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+div,
+label {
+    color: gray;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+p {
+    font-size: 1em;
+}
+
+img {
+    border-color: gray;
+    border-style: var(--dark-background)
+}
+
+.container {
+    background: whitesmoke;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 18px;
+    max-width: 800%;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+
+/* End General Settings */
+
+/*header session starts*/
 
 .nav-list {
-    
+
     background: var(--dark-background);
     padding: 1rem 0;
     border-radius: 0px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     color: var(--secondary-text-color);
-    font-size: var(--secondary-text-size);  
+    font-size: var(--secondary-text-size);
     list-style: none;
     margin-right: 2rem;
-  }
-  
-  .nav-item a {
+}
+
+.nav-item a {
     text-decoration: none;
     color: var(--main-text-color);
     transition: all 200ms ease-in;
     font-size: var(--logo-text-size);
-  }
-  
-  .nav-item a:hover {
+}
+
+.nav-item a:hover {
     color: #039d69;
-  }
-  
-  .nav-item:first-child {
+}
+
+.nav-item:first-child {
     margin-right: auto;
     margin-left: 2rem;
     color: #F9FAF8;
     font-size: 24px;
-    
-  }
-  .hero {
-    
+
+}
+
+.hero {
+
     background: var(--dark-background);
     padding: 1rem 0;
     border-radius: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-      
-  }
-  
-  .hero-text {
-      margin-left: 2rem; 
-      height: 200px;
-      width: 400px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
-      align-content: center;
-      
-  }
-  .hero-main{
-      font-size: var(--main-text-size);
-      font-weight: bolder;
-      color: var(--main-text-color);
-  }
-  
-  .hero-second {
-      font-size: var(--secondary-text-size);
-      color: var(--secondary-text-color);
-  
-  }
-  
-  .hero-image {
-      margin-right: 2rem;
-  }
-      
-  .placeholder {
-      position: absolute;
-      top: 10%;
-      padding:200px;
-      color: white;
-      font-size: var(--secondary-text-size);
-      color: var(--secondary-text-color);
-  }    
-  .button {
-      border: 2px solid var(--action-background);
-      padding: 3px 20px;
-      border-radius: 10px;
-      font-weight: bold;
-      cursor: pointer;
-      text-decoration: none;
-      color: white;
-      transition: all ease .5s;
-      background-color: var(--action-background);
-  }
-  
-  .button:hover {
-      background-color: white;
-      color: var(--action-background);
-  }
-  /*header session ends */
+
+}
+
+.hero-text {
+    margin-left: 2rem;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+
+}
+
+.hero-main {
+    font-size: var(--main-text-size);
+    font-weight: bolder;
+    color: var(--main-text-color);
+}
+
+.hero-second {
+    font-size: var(--secondary-text-size);
+    color: var(--secondary-text-color);
+
+}
+
+.hero-image {
+    margin-right: 2rem;
+}
+
+.placeholder {
+    position: absolute;
+    top: 10%;
+    padding: 200px;
+    color: white;
+    font-size: var(--secondary-text-size);
+    color: var(--secondary-text-color);
+}
+
+.button {
+    border: 2px solid var(--action-background);
+    padding: 3px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: all ease .5s;
+    background-color: var(--action-background);
+}
+
+.button:hover {
+    background-color: white;
+    color: var(--action-background);
+}
+
+/*header session ends */
 
 
 .btn {
@@ -130,6 +227,7 @@
     padding: 50px;
     margin-bottom: 50px;
 }
+
 .features h2 {
     font-size: var(--primary-text-size);
     color: var(--primary-text-color);
@@ -151,15 +249,17 @@
     padding: 0 50px;
     margin: 50px 0 0 0;
 }
+
 .feature-tag img {
     margin-bottom: 25px;
 }
+
 .feature-tag h3 {
     margin-bottom: 10px;
 }
 
 .quote {
-    display: flex;  
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -177,7 +277,7 @@ blockquote {
 
 cite {
     max-width: 1000px;
-    width: 100%;  
+    width: 100%;
     text-align: right;
     margin-top: 10px;
     font-style: normal;
@@ -197,6 +297,7 @@ cite {
     justify-content: space-between;
     padding: 50px 50px;
 }
+
 .action-container p {
     font-size: 14px;
     font-weight: light;
@@ -213,31 +314,37 @@ footer {
     color: white;
     padding: 25px;
 }
+
 footer ul {
     list-style: none;
     margin-top: 5px;
 }
-footer ul li a{
+
+footer ul li a {
     color: white;
     text-decoration: none;
     font-size: 12px;
 }
 
 @media (max-width: 768px) {
-    .feature-tag { 
+    .feature-tag {
         width: 230px;
         padding: 0 15px;
     }
+
     .quote {
         padding: 75px;
     }
-    blockquote{
+
+    blockquote {
         font-size: 24px;
     }
+
     .action-container {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .btn {
         margin-top: 20px;
     }
@@ -247,14 +354,17 @@ footer ul li a{
     .quote {
         padding: 100px 25px;
     }
+
     blockquote {
         font-size: 20px;
     }
-    footer{
+
+    footer {
         flex-direction: column;
         text-align: center;
     }
-    footer section{
+
+    footer section {
         margin: 10px 0;
     }
 }
