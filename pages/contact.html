@@ -4,34 +4,87 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../styles/contact.css">
+	<link rel="stylesheet" href="./../styles/common.css">
+    <link rel="stylesheet" href="./../styles/index.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 	<title>Contacts</title>
 </head>
 <body>
 
-<!-- header -->
+<!-- header starts-->
+<header>
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <p>Coffee shop</p>
+            </li>
+            <li class="nav-item">
+                <a href="./../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="./../pages/details.html">Details</a>
+            </li>
+            <li class="nav-item">
+                <a href="./../pages/contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero-text">
+            <h1 class="hero-main">Get Discount!</h1>
+            <h2 class="hero-second">New members are offered 25% discount upon signing up</h2>
+            <a class="button">Sign Up</a>
+        </div>
+        <div class="hero-image">
+            <img src="./../img/heroimage.jpg" alt="hero">
+            <div class="placeholder">
+                <p>Start Your Day Fresh!</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- header ends-->
 
     <div class="main">
         <div class="box">
             <h1>Contacts</h1>
             Have a question? Reach out!
             <div class="contact email">
-                <img src="../img/mail.png" alt="email">
+                <img src="../img/mail.png" alt="email" class="contact-icon">
                 <p>info@coffeebean.com</p>
             </div>
             <div class="contact phone">
-                <img src="../img/smartphone-call.png" alt="phone">
+                <img src="../img/smartphone-call.png" alt="phone" class="contact-icon">
                 <p>+44 1322 414275</p>
             </div>
             <div class="contact location">
-                <img src="../img/location.png" alt="location">
+                <img src="../img/location.png" alt="location" class="contact-icon">
                 <p>Imagined st. 41A, Neverland</p>
             </div>
             <div class="contact facebook">
-                <img src="../img/facebook.png" alt="facebook">
+                <img src="../img/facebook.png" alt="facebook" class="contact-icon">
                 <p>Coffee Bean</p>
             </div>
         </div>
     </div>
+    <!-- footer starts-->
+    <footer>
+        <section>
+            <h4>The Team: </h4>
+            <ul>
+                <li><a href="https://github.com/slepec2018" target="_blank">Anton Zuban</a></li>
+                <li><a href="https://github.com/NikitaBrinzovik" target="_blank">Nikita Kuznetsov</a></li>
+                <li><a href="https://github.com/DanielShin2" target="_blank">Shin Naing</a></li>
+                <li><a href="https://github.com/francis-del" target="_blank">Adindu Francis Maduekwe</a></li>
+                <li><a href="https://github.com/ausrinesa" target="_blank">Aušrinė Sabockytė</a></li>
+                <li><a href="https://github.com/VMink" target="_blank">Eduardo Lugo</a></li>
+            </ul>
+        </section>
+        <section>
+            <p>©2023 All Rights Reserved</p>
+        </section>
+    </footer>
+    <!-- footer ends-->
 </body>
 </html>
