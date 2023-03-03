@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url("../img/background.jpg");
+    background-image: url("../assets/images/coffee-beans-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -47,11 +47,11 @@ p{
 @media (max-width:880px){
 div{
     font-size: 0.8rem;
-}    
+}
 }
 
 @media (max-width:676px){
     div{
         font-size: 0.6rem;
-}    
+}
 }

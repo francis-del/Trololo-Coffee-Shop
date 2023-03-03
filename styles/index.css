@@ -16,7 +16,7 @@ html {
 
 body {
     background-size: cover;
-    background-image: url("../img/devin.jpg");
+    background-image: url("../assets/images/devin.jpg");
     font-size: 16px;
     font-family: "Arial", Helvetica, sans-serif;
     margin: 0;
@@ -103,7 +103,7 @@ img {
 
     background: var(--dark-background);
     padding: 1rem 0;
-    border-radius: 0px;
+    border-radius: 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -135,18 +135,18 @@ img {
 
 }
 
-.hero {
+.discount {
 
     background: var(--dark-background);
     padding: 1rem 0;
-    border-radius: 0px;
+    border-radius: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.hero-text {
+.discount-text {
     margin-left: 2rem;
     height: 200px;
     width: 400px;
@@ -158,19 +158,19 @@ img {
 
 }
 
-.hero-main {
+.discount-main {
     font-size: var(--main-text-size);
     font-weight: bolder;
     color: var(--main-text-color);
 }
 
-.hero-second {
+.discount-second {
     font-size: var(--secondary-text-size);
     color: var(--secondary-text-color);
 
 }
 
-.hero-image {
+.discount-image {
     margin-right: 2rem;
 }
 
@@ -178,7 +178,6 @@ img {
     position: absolute;
     top: 10%;
     padding: 200px;
-    color: white;
     font-size: var(--secondary-text-size);
     color: var(--secondary-text-color);
 }
@@ -300,7 +299,7 @@ cite {
 
 .action-container p {
     font-size: 14px;
-    font-weight: light;
+    font-weight: lighter;
     margin-top: 3px;
 }
 
