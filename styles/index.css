@@ -1,9 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    outline: none !important;
+    outline: none;
 }
 
 html {
@@ -28,21 +26,6 @@ main {
 a:hover {
     text-decoration: none;
     opacity: 0.95;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-input,
-div,
-label {
-    color: white;
-    margin: 0;
 }
 
 h2 {
@@ -78,9 +61,7 @@ img {
     height: auto;
 }
 
-
 /*header session starts*/
-
 
 .nav-list {
     background: var(--dark-background);
@@ -95,7 +76,7 @@ img {
     color: var(--secondary-text-color);
     font-size: var(--secondary-text-size);
     list-style: none;
-    margin-right: 2rem;
+    margin-right: 2em;
 }
 
 .nav-item a {
@@ -111,21 +92,21 @@ img {
 
 .nav-item:first-child {
     margin-right: auto;
-    margin-left: 2rem;
+    margin-left: 2em;
     color: #F9FAF8;
     font-size: 24px;
 }
 
 .discount {
     background: var(--dark-background);
-    padding: 1rem 0;
+    padding: 1em 0;
     border-radius: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .discount-text {
+    margin-top: 30px;
     margin-left: 2rem;
     height: 200px;
     width: 400px;
@@ -133,7 +114,6 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    align-content: center;
 }
 
 .discount-main {
@@ -147,8 +127,13 @@ img {
     color: var(--secondary-text-color);
 }
 
+.discount-image-container {
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+}
+
 .discount-image {
-    margin-right: 2rem;
+    border-radius: 16px;
 }
 
 .welcome-placeholder {
@@ -177,6 +162,42 @@ img {
 }
 
 /*header session ends */
+
+/*footer session ends */
+
+footer {
+    position: relative;
+    height: auto;
+    background-color: var(--dark-background);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 14px;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 5px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.team-container {
+    gap: 20px;
+}
+
+.team-header {
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*footer session ends */
 
 @media (max-width: 400px) {
     footer {

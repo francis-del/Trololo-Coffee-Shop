@@ -11,7 +11,7 @@ body {
 .main {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin: 10% auto;
 }
 
 .contact {
@@ -19,7 +19,7 @@ body {
     align-items: center;
 }
 
-.box {
+.contact-box {
     background-color: #e5e7ebbb;
     color: #1f2937;
     padding: 4%;

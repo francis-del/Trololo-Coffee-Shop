@@ -1,3 +1,8 @@
+.details-content{
+    padding: 50px;
+    color: var(--dark-background);
+}
+
 .menu-item.additional-items h2 {
     width: 50%;
     float: left;

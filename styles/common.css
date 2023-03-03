@@ -21,3 +21,11 @@
     --secondary-text-color: #e5e7eb;
     /*Discount / Header Link*/
 }
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+}

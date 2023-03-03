@@ -23,7 +23,7 @@
     margin-bottom: 50px;
 }
 
-.features h2 {
+.features h1 {
     font-size: var(--primary-text-size);
     color: var(--primary-text-color);
     font-weight: 900;
@@ -97,28 +97,6 @@ cite {
     font-size: 14px;
     font-weight: lighter;
     margin-top: 3px;
-}
-
-footer {
-    position: relative;
-    height: auto;
-    background-color: var(--dark-background);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-    padding: 25px;
-}
-
-footer ul {
-    list-style: none;
-    margin-top: 5px;
-}
-
-footer ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 12px;
 }
 
 @media (max-width: 768px) {
