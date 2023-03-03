@@ -7,7 +7,7 @@
     --action-background: #3882f6;
     /*Texts*/
     --main-text-size: 48px;
-    /*Hero*/
+    /*Discount*/
     --logo-text-size: 24px;
     /*Logo*/
     --primary-text-size: 36px;
@@ -19,5 +19,5 @@
     --primary-text-color: #1f2937;
     /*Sections title / Quote*/
     --secondary-text-color: #e5e7eb;
-    /*Hero / Header Link*/
+    /*Discount / Header Link*/
 }

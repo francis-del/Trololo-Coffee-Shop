@@ -2,56 +2,56 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     background-image: url("../assets/images/coffee-beans-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     margin-top: 10%;
 }
 
-.contact{
+.contact {
     display: flex;
     align-items: center;
 }
 
-.box{
+.box {
     background-color: #e5e7ebbb;
     color: #1f2937;
     padding: 4%;
     border-radius: 5%;
 }
 
-.contact-icon{
+.contact-icon {
     height: 20px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-p{
+p {
     margin-top: 8px;
     margin-bottom: 2px;
     margin-left: 7px;
 }
 
-.email{
+.email {
     margin-top: 10%;
 }
 
-@media (max-width:880px){
-div{
-    font-size: 0.8rem;
-}
+@media (max-width: 768px) {
+    div {
+        font-size: 0.8rem;
+    }
 }
 
-@media (max-width:676px){
-    div{
+@media (max-width: 400px) {
+    div {
         font-size: 0.6rem;
-}
+    }
 }
