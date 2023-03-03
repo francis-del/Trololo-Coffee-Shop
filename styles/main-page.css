@@ -53,6 +53,12 @@
     margin-bottom: 10px;
 }
 
+.info-link {
+    outline: none;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
 .quote {
     display: flex;
     align-items: center;
