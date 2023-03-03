@@ -136,10 +136,10 @@ img {
     border-radius: 16px;
 }
 
-.welcome-placeholder {
+.discount-slogan {
     position: absolute;
     top: 10%;
-    padding: 200px;
+    padding: 320px 200px 0;
     font-size: var(--secondary-text-size);
     color: var(--secondary-text-color);
 }
