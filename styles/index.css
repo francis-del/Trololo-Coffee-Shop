@@ -97,53 +97,68 @@ img {
     font-size: 24px;
 }
 
-.discount {
-    background: var(--dark-background);
-    padding: 1em 0;
-    border-radius: 0;
+
+/*header session ends */
+
+.main-text-section {
+    background-color: #1F2937;
     display: flex;
+    padding: 50px;
     justify-content: space-between;
 }
 
-.discount-text {
-    margin-top: 30px;
-    margin-left: 2rem;
-    height: 200px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+.main-text {
+    margin-right: 50px;
+    max-width: 50%;
 }
 
-.discount-main {
-    font-size: var(--main-text-size);
-    font-weight: bolder;
-    color: var(--main-text-color);
+.main-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-top: 0;
+    font-weight: 900;
 }
 
-.discount-second {
-    font-size: var(--secondary-text-size);
-    color: var(--secondary-text-color);
+.main-text p {
+    font-size: 18px;
+    color: #E5E7EB;   
+    line-height: 2;
 }
 
-.discount-image-container {
-    margin-right: 1.5rem;
-    margin-left: 1rem;
+.main-text-image {
+    border-radius: 14px;
 }
 
-.discount-image {
-    border-radius: 16px;
-}
+@media only screen and (max-width: 910px) {
+    .main-text-section {
+        flex-direction: column;
+    }
+    
+    .main-text {
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
 
-.discount-slogan {
-    position: absolute;
-    top: 10%;
-    padding: 320px 200px 0;
-    font-size: var(--secondary-text-size);
-    color: var(--secondary-text-color);
 }
+@media only screen and (max-width: 767px) {
+    .main-text-section {
+        flex-direction: column;
+    }
+    
+    .main-text {
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
+    .main-text-image {        
+        max-width: 100%;
+    }
+}
 .sign-up-btn {
     border: 2px solid var(--action-background);
     padding: 3px 20px;
@@ -160,9 +175,6 @@ img {
     background-color: white;
     color: var(--action-background);
 }
-
-/*header session ends */
-
 /*footer session ends */
 
 footer {
