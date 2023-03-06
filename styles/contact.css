@@ -45,13 +45,19 @@ p {
 }
 
 @media (max-width: 768px) {
-    div {
+    .contact-box {
         font-size: 0.8rem;
     }
 }
 
-@media (max-width: 400px) {
-    div {
+@media (max-width:550px){
+    .contact-box{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-box {
         font-size: 0.6rem;
     }
 }
