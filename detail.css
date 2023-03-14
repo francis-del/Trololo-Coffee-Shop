@@ -20,10 +20,6 @@ main {
     padding: 30px 0;
 }
 
-* {
-    outline: none !important;
-}
-
 a:hover {
     text-decoration: none;
     opacity: 0.95;
