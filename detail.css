@@ -1,33 +1,8 @@
-:root {
-    /*Backgrounds*/
-    --dark-background: #1f2937;
-    /*Hero / Footer*/
-    --light-background: #e5e7eb;
-    /*Buttons / Call to action*/
-    /*Texts*/
-    --main-text-size: 48px;
-    /*Hero*/
-    --logo-text-size: 24px;
-    /*Logo*/
-    --primary-text-size: 36px;
-    /*Sections title / Quote*/
-    --secondary-text-size: 18px;
-    /*Hero / Header Link*/
-    --main-text-color: #f9faf8;
-    /*Hero / Logo*/
-    --primary-text-color: #1f2937;
-    /*Sections title / Quote*/
-    --secondary-text-color: #e5e7eb;
-    /*Hero / Header Link*/
-}
-
-
 /* General Settings */
 
 html {
     line-height: 1.15;
     /* 1 */
-    -webkit-text-size-adjust: 100%;
     /* 2 */
 }
 
@@ -171,18 +146,6 @@ nav li a {
 
 
 /* End Header */
-
-
-/* Aside */
-
-aside {
-    width: 20%;
-    padding-left: 20px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: #f4f3ee;
-}
 
 
 /* Footer */
