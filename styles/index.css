@@ -97,7 +97,6 @@ img {
     font-size: 24px;
 }
 
-
 /*header session ends */
 
 .main-text-section {
@@ -121,7 +120,7 @@ img {
 
 .main-text p {
     font-size: 18px;
-    color: #E5E7EB;   
+    color: #E5E7EB;
     line-height: 2;
 }
 
@@ -129,36 +128,6 @@ img {
     border-radius: 14px;
 }
 
-@media only screen and (max-width: 910px) {
-    .main-text-section {
-        flex-direction: column;
-    }
-    
-    .main-text {
-        margin: 0;
-        max-width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    
-
-}
-@media only screen and (max-width: 767px) {
-    .main-text-section {
-        flex-direction: column;
-    }
-    
-    .main-text {
-        margin: 0;
-        max-width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .main-text-image {        
-        max-width: 100%;
-    }
-}
 .sign-up-btn {
     border: 2px solid var(--action-background);
     padding: 3px 20px;
@@ -175,6 +144,7 @@ img {
     background-color: white;
     color: var(--action-background);
 }
+
 /*footer session ends */
 
 footer {
@@ -210,6 +180,34 @@ footer ul li a {
 }
 
 /*footer session ends */
+
+@media only screen and (max-width: 910px) {
+    .main-text-section {
+        flex-direction: column;
+    }
+
+    .main-text {
+        max-width: 100%;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    .main-text-image {
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 0 0.5em;
+    }
+
+    .nav-list {
+        justify-content: space-around;
+    }
+
+    .nav-item:first-child {
+        margin-left: 0.5em;
+    }
+}
 
 @media (max-width: 400px) {
     footer {

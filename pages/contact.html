@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="./../styles/common.css">
 	<link rel="stylesheet" href="./../styles/index.css">
 	<link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/main-page.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,7 @@
         <nav>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <h2>Trololo Coffee shop</h2>
+                    <h2>Trololo <span class="description-label">Coffee shop</span></h2>
                 </li>
                 <li class="nav-item">
                     <a href="./../index.html">Home</a>
@@ -37,29 +38,28 @@
         </nav>
     </header>
 
-    <section class="main">
-        <div class="contact-box">
-            <h1>Contacts</h1>
-            Have a question? Reach out!
-            <div class="contact email">
-                <img src="../assets/icons/mail.png" alt="email" class="contact-icon">
-                <p>info@coffeebean.com</p>
-            </div>
-            <div class="contact phone">
-                <img src="../assets/icons/smartphone-call.png" alt="phone"
-                     class="contact-icon">
-                <p>+44 1322 414275</p>
-            </div>
-            <div class="contact location">
-                <img src="../assets/icons/location.png" alt="location" class="contact-icon">
-                <p>Imagined st. 41A, Neverland</p>
-            </div>
-            <div class="contact facebook">
-                <img src="../assets/icons/facebook.png" alt="facebook" class="contact-icon">
-                <p>Coffee Bean</p>
-            </div>
-        </div>
+    <main class="main">
+    <section class="contact-box">
+        <h1>Contacts</h1>
+        <span class="flex question">Have a question? Reach out!</span>
+        <figure class="contact email">
+            <img src="../assets/icons/mail.png" alt="email" class="contact-icon">
+            <figcaption>info@coffeebean.com</figcaption>
+        </figure>
+        <figure class="contact phone">
+            <img src="../assets/icons/smartphone-call.png" alt="phone" class="contact-icon">
+            <figcaption>+44 1322 414275</figcaption>
+        </figure>
+        <figure class="contact location">
+            <img src="../assets/icons/location.png" alt="location" class="contact-icon">
+            <figcaption>Imagined st. 41A, Neverland</figcaption>
+        </figure>
+        <figure class="contact facebook">
+            <img src="../assets/icons/facebook.png" alt="facebook" class="contact-icon">
+            <figcaption>Coffee Bean</figcaption>
+        </figure>
     </section>
+    </main>
 
     <footer>
         <section class="team-container flex">

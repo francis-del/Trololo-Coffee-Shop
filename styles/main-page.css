@@ -105,7 +105,7 @@ cite {
     margin-top: 3px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .feature-tag {
         width: 230px;
         padding: 0 15px;
@@ -129,12 +129,22 @@ cite {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 767px) {
     .quote {
         padding: 100px 25px;
     }
 
     blockquote {
         font-size: 20px;
+    }
+
+    .main-text-section {
+        padding: 10px;
+    }
+
+    .description-label{
+        display: none;
+        visibility: hidden;
+        pointer-events: none;
     }
 }
